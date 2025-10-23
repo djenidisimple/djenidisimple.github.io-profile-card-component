@@ -9,22 +9,41 @@
   <title>Frontend Mentor | Profile card component</title>
   <link rel="stylesheet" href="./style.css">
 </head>
-<body>
-  Victor Crest
-  26
-  London
-
-  80K
-  Followers
-
-  803K
-  Likes
-
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+<body class="container">
+  <main class="container">
+    <img src="./images/bg-pattern-top.svg" alt="bg-pattern-top" class="bg-pattern-top">
+    <img src="./images/bg-pattern-bottom.svg" alt="bg-pattern-bottom" class="bg-pattern-bottom">
+    <div class="card">
+      <div>
+        <img src="./images/bg-pattern-card.svg" alt="bg-pattern-card" class="bg-pattern-card">
+      </div>
+      <div>
+        <img src="./images/image-victor.jpg" alt="image-victor" class="image-victor">
+      </div>
+      <div class="info">
+        <h1>Victor Crest <span class="text-gray">26</span></h1>
+        <span class="text-gray">London</span>
+      </div>
+      <hr>
+      <div class="space-between card-footer">
+        <div class="container">
+          <span class="count">80K</span>
+          <span class="text-gray description">Followers</span>
+        </div>
+        <div class="container">
+          <span class="count">803K</span>
+          <span class="text-gray description">Likes</span>
+        </div>
+        <div class="container">
+          <span class="count">1.4K</span>
+          <span class="text-gray description">Photos</span>
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/djenidisimple">Djenidi</a>.
+    </div>
+  </main>
 </body>
 </html>

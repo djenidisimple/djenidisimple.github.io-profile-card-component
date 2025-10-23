@@ -5,16 +5,129 @@
     /* Neutral */
     --gray-100: hsl(225, 10%, 92%);
 }
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 11px; text-align: center;width: 100%; margin-top: 20px; }
 .attribution a { color: hsl(228, 45%, 44%); }
 @font-face {
     font-family: Kumbh Sans;
     src: url('./font/Kumbh_Sans/KumbhSans-VariableFont_YOPQ\,wght.ttf');
 }
+html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
 body {
     font-family: 'Kumbh Sans', sans-serif;
-    background-color: var(--gray-100);
+    background-color: var(--blue-600);
     margin: 0;
     padding: 0;
+    height: 100%;
+    font-size: 18px;
     box-sizing: border-box;
+    overflow: hidden;
 }
+.bg-pattern-top {
+    position: absolute;
+    top: -40%;
+    left: -60%;
+    width: 100vw;
+    z-index: -1;
+}
+.bg-pattern-bottom {
+    position: absolute;
+    bottom: -55vh;
+    right: -60vh;
+    width: 100vw;
+    z-index: -1;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card {
+    width: 350px;
+    background-color: white;
+    border-radius: 18px;
+}
+.bg-pattern-card {
+    width: 100%;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+.image-victor {
+    width: 100px;
+    border: 5px solid var(--gray-100);
+    border-radius: 50%;
+    position: relative;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+.info {
+    text-align: center;
+    padding: 0 24px 24px 24px;
+    position: relative;
+    top: -40px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--navy-950);
+}
+.info h1 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--navy-950);
+}
+.text-gray {
+    color: var(--gray-500);
+}
+.count {
+    width: 100%;
+    color: var(--navy-950);
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+}
+.description {
+    width: 100%;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: center;
+}
+.space-between {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.container > span {
+    line-height: 150%;
+}
+hr {
+    border: none;
+    border-top: 1px solid var(--gray-100);
+    margin-top: -40px;
+    margin-bottom: 30px;
+}
+.card-footer {
+    padding-bottom: 20px;
+}
+/* @media (min-width: 700px) {
+    .bg-pattern-top {
+        position: absolute;
+        top: -60%;
+        left: -30%;
+        width: 80%;
+        z-index: -1;
+    }
+    .bg-pattern-bottom {
+        position: absolute;
+        bottom: -60%;
+        right: -25%;
+        width: 80%;
+        z-index: -1;
+    }
+} */
