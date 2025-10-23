@@ -16,7 +16,7 @@ Thanks for checking out this front-end coding challenge.
 ### Links
 
 - Solution [here](https://github.com/djenidisimple/djenidisimple.github.io-profile-card-component)
-- Live Site [here](https://djenidisimple.github.io/djenidisimple.github.profile-card-component/)
+- Live Site [here](https://djenidisimple.github.io/djenidisimple.github.io-profile-card-component/)
 
 ## Author
 - Website - [Djenidi](https://github.com/djenidisimple)
