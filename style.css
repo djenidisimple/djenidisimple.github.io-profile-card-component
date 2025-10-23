@@ -29,7 +29,7 @@ body {
 }
 .bg-pattern-top {
     position: absolute;
-    top: -40%;
+    top: -40vh;
     left: -60%;
     width: 100vw;
     z-index: -1;
