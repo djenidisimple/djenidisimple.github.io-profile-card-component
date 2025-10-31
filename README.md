@@ -10,8 +10,18 @@ Thanks for checking out this front-end coding challenge.
 
 ## Table of contents
 
+- [Screenshot Desktop](#screenshot-desktop)
+- [Screenshot Mobile](#screenshot-mobile)
 - [Links](#links)
 - [Author](#author)
+
+### Screenshot Desktop
+
+![Screenshot of profile card component](./images/Screenshot-desktop.jpeg)
+
+### Screenshot Mobile
+
+![Screenshot of profile card component](./images/Screenshot-mobile.jpeg)
 
 ### Links
 
